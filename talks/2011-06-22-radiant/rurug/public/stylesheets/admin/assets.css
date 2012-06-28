@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* line 4, ../sass/admin/assets.sass */
+p.asset img.preview {
+  border: 5px solid white;
+  -moz-box-shadow: #333333 1px 1px 5px 0;
+  -webkit-box-shadow: #333333 1px 1px 5px 0;
+  -o-box-shadow: #333333 1px 1px 5px 0;
+  box-shadow: #333333 1px 1px 5px 0;
+}
+
+/* line 8, ../sass/admin/assets.sass */
+.asset_filters {
+  float: left;
+  padding: 2px 0;
+}
+/* line 11, ../sass/admin/assets.sass */
+.asset_filters a {
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -khtml-border-radius: 100px;
+  border-radius: 100px;
+  color: #555555;
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: 12px;
+}
+/* line 17, ../sass/admin/assets.sass */
+.asset_filters a:hover {
+  background: #cccccc;
+}
+/* line 19, ../sass/admin/assets.sass */
+.asset_filters a.pressed {
+  background: #888888;
+  -moz-box-shadow: 0 1px 1px #333333 inset;
+  -webkit-box-shadow: 0 1px 1px #333333 inset;
+  -o-box-shadow: 0 1px 1px #333333 inset;
+  box-shadow: 0 1px 1px #333333 inset;
+  color: white;
+  text-shadow: 0 1px 0 #333333;
+}
+/* line 24, ../sass/admin/assets.sass */
+.asset_filters a.pressed:hover {
+  background: #888888;
+  -moz-box-shadow: 0 1px 1px #333333 inset;
+  -webkit-box-shadow: 0 1px 1px #333333 inset;
+  -o-box-shadow: 0 1px 1px #333333 inset;
+  box-shadow: 0 1px 1px #333333 inset;
+  color: white;
+  text-shadow: 0 1px 0 #333333;
+}
+
+/* line 31, ../sass/admin/assets.sass */
+.popup div.toolbar {
+  background: white;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #dddddd 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #dddddd 100%);
+  border-bottom: 1px solid #cccccc;
+  -moz-box-shadow: white 0 1px 0 0;
+  -webkit-box-shadow: white 0 1px 0 0;
+  -o-box-shadow: white 0 1px 0 0;
+  box-shadow: white 0 1px 0 0;
+  margin: -20px -20px 0;
+  padding: 6px 10px 3px 10px;
+  font-size: 95%;
+  height: 30px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 41, ../sass/admin/assets.sass */
+.popup div.toolbar .right {
+  float: right;
+}
+/* line 43, ../sass/admin/assets.sass */
+.popup div.toolbar form.search {
+  padding: 4px 2px 0;
+}
+/* line 45, ../sass/admin/assets.sass */
+.popup div.toolbar form.search input[type=search] {
+  font-size: 12px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -o-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -khtml-border-radius: 100px;
+  border-radius: 100px;
+  border: 1px solid #cccccc;
+  border-top-color: #999999;
+  border-left-color: #b0b0b0;
+  border-right-color: #bbbbbb;
+  background: white url('/images/admin/search.png') 4px center no-repeat;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  width: 180px;
+  padding: 2px 8px 2px 20px;
+}
+
+/* line 57, ../sass/admin/assets.sass */
+#upload_holders {
+  display: none;
+}
+
+/* line 61, ../sass/admin/assets.sass */
+#attach_asset .viewport {
+  overflow-x: hidden;
+  width: 610px;
+  height: 310px;
+}
+
+/* line 66, ../sass/admin/assets.sass */
+.attachment_actions {
+  text-align: right;
+  margin-bottom: -1em;
+}
+/* line 69, ../sass/admin/assets.sass */
+.attachment_actions ul {
+  list-style-type: none;
+}
+/* line 5, ../../../../../../../.rvm/gems/ruby-1.8.7-p334@radiant/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/utilities/lists/_inline-list.scss */
+.attachment_actions ul, .attachment_actions ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+/* line 71, ../sass/admin/assets.sass */
+.attachment_actions li {
+  padding-left: 1em;
+}
+/* line 73, ../sass/admin/assets.sass */
+.attachment_actions a {
+  color: white !important;
+  text-shadow: 1px 1px 0 #888888;
+}
+
+/* line 77, ../sass/admin/assets.sass */
+.assets {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 81, ../sass/admin/assets.sass */
+.assets ul li.asset {
+  display: block;
+  float: left;
+  margin: 8px 0 0 8px;
+  width: 110px;
+  height: 110px;
+  position: relative;
+  line-height: 1.2em;
+}
+/* line 89, ../sass/admin/assets.sass */
+.assets ul li.asset .front, .assets ul li.asset .back {
+  display: block;
+  background: #e6eaed;
+  border: 5px solid white;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+/* line 97, ../sass/admin/assets.sass */
+.assets ul li.asset .front {
+  -moz-box-shadow: #333333 1px 1px 5px 0;
+  -webkit-box-shadow: #333333 1px 1px 5px 0;
+  -o-box-shadow: #333333 1px 1px 5px 0;
+  box-shadow: #333333 1px 1px 5px 0;
+  text-align: center;
+}
+/* line 100, ../sass/admin/assets.sass */
+.assets ul li.asset .back {
+  color: #333333;
+  overflow: hidden;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+/* line 104, ../sass/admin/assets.sass */
+.assets ul li.asset .title {
+  color: #333333;
+  font-size: 10px;
+  overflow: hidden;
+  margin: 10px 4px;
+  height: 15px;
+  line-height: 15px;
+  text-overflow: ellipsis;
+}
+/* line 112, ../sass/admin/assets.sass */
+.assets ul li.asset .icon {
+  height: 63px;
+  line-height: 63px;
+}
+/* line 115, ../sass/admin/assets.sass */
+.assets ul li.asset .icon img {
+  vertical-align: bottom;
+}
+/* line 118, ../sass/admin/assets.sass */
+.assets ul li.asset ul.actions li {
+  margin: 5px 0;
+  padding: 0 10px;
+  font-size: 10px;
+}
+/* line 122, ../sass/admin/assets.sass */
+.assets ul li.asset ul.actions a {
+  background: #666666;
+  background: rgba(0, 0, 0, 0.8);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  color: #dddddd;
+  display: block;
+  padding: 2px 10px;
+  text-decoration: none;
+}
+/* line 130, ../sass/admin/assets.sass */
+.assets ul li.asset ul.actions a:hover {
+  background: #999999;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+/* line 135, ../sass/admin/assets.sass */
+.assets ul li.asset.unsaved .front {
+  opacity: 0.4;
+}
+/* line 138, ../sass/admin/assets.sass */
+.assets ul li.asset:hover .back {
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  background: rgba(255, 255, 255, 0.6);
+}
+/* line 141, ../sass/admin/assets.sass */
+.assets ul li.asset.waiting {
+  background-color: #e6eaed;
+}
+/* line 143, ../sass/admin/assets.sass */
+.assets ul li.asset.waiting .back {
+  display: none;
+}
+/* line 145, ../sass/admin/assets.sass */
+.assets ul li.asset.waiting .front {
+  background: transparent url(/images/admin/spinner.gif) no-repeat center center;
+}
+/* line 147, ../sass/admin/assets.sass */
+.assets ul li.asset.waiting .front img {
+  opacity: 0.2;
+}
+
+/* line 150, ../sass/admin/assets.sass */
+#attachment_list.assets {
+  background: #7e7e7e;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -o-border-bottom-left-radius: 5px;
+  -ms-border-bottom-left-radius: 5px;
+  -khtml-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -o-border-bottom-right-radius: 5px;
+  -ms-border-bottom-right-radius: 5px;
+  -khtml-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: -1em 0.5em 1em 0.5em;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+/* line 156, ../sass/admin/assets.sass */
+#attachment_list.assets ul.empty {
+  display: none;
+}
+/* line 158, ../sass/admin/assets.sass */
+#attachment_list.assets p.note {
+  font-size: 80%;
+  margin: 0;
+  padding: 8px;
+  clear: left;
+}
+/* line 163, ../sass/admin/assets.sass */
+#attachment_list.assets p.note span.message {
+  float: right;
+  color: #aaaaaa;
+}
+/* line 166, ../sass/admin/assets.sass */
+#attachment_list.assets p.note span.message.important {
+  color: #dd9999;
+}
+/* line 170, ../sass/admin/assets.sass */
+#attachment_list.assets ul.sortable li.asset div.title {
+  cursor: move;
+}
+/* line 172, ../sass/admin/assets.sass */
+#attachment_list.assets ul.sortable li.asset div.title:hover {
+  font-weight: bold;
+}
+
+/* line 175, ../sass/admin/assets.sass */
+#assets_table.assets {
+  position: relative;
+}
+/* line 177, ../sass/admin/assets.sass */
+#assets_table.assets p {
+  padding: 40px;
+  padding-top: 45px;
+  color: silver;
+  text-align: center;
+  font-size: 75%;
+  font-style: oblique;
+}
+/* line 185, ../sass/admin/assets.sass */
+#assets_table.assets ul {
+  clear: both;
+}
+/* line 188, ../sass/admin/assets.sass */
+#assets_table.assets ul li.asset input {
+  display: none;
+}
+/* line 190, ../sass/admin/assets.sass */
+#assets_table.assets div.pagination {
+  position: relative;
+  clear: left;
+  width: 100%;
+  height: 2.3em;
+  font-size: 80%;
+  text-align: center;
+}
+/* line 197, ../sass/admin/assets.sass */
+#assets_table.assets div.pagination a {
+  color: white;
+  text-decoration: none;
+}
+/* line 200, ../sass/admin/assets.sass */
+#assets_table.assets div.pagination a:hover {
+  background-color: #bbbbbb;
+  color: #444444;
+}
+/* line 203, ../sass/admin/assets.sass */
+#assets_table.assets div.pagination span {
+  color: #bbbbbb;
+}
+/* line 205, ../sass/admin/assets.sass */
+#assets_table.assets div.pagination span, #assets_table.assets div.pagination a {
+  display: block;
+  float: left;
+  padding: 5px;
+  line-height: 1.5em;
+}

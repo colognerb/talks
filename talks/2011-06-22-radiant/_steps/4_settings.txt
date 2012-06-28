@@ -1,0 +1,2 @@
+DefaultStatus: published
+Filter: Textile

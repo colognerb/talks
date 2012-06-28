@@ -1,0 +1,4 @@
+rvm 1.8.7@radiant
+radiant rurug -d sqlite3
+cd rurug
+rake db:bootstrap

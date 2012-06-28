@@ -1,0 +1,22 @@
+<!-- Inhalt von Seite /blog.rss mit Layout RSS -->
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>RuRUG Blog</title>
+  <description>Blog der RuRUG</description>
+  <link>http://localhost:3000<r:url /></link>
+  <language>de</language>
+  <ttl>40</ttl>
+  <r:find url="/blog/">
+  <r:children:each by="published_at" order="desc" limit="10">
+    <item>
+      <title><r:escape_html><r:title /></r:escape_html></title>
+      <description><r:escape_html><r:content /></r:escape_html></description>
+      <pubDate><r:rfc1123_date /></pubDate>
+      <guid>http://localhost:3000<r:url /></guid>
+      <link>http://localhost:3000<r:url /></link>
+    </item>
+  </r:children:each>
+  </r:find>
+</channel>
+</rss>

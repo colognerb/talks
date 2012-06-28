@@ -1,0 +1,18 @@
+<!-- in body -->
+<r:if_content part="sidebar">class="has_sidebar"</r:if_content>
+
+<!-- unter #main -->
+  <r:if_content part="sidebar">
+  <aside>
+    <r:content part="sidebar" />
+  </aside>
+  </r:if_content>
+  
+<!-- in blog page, part "sidebar" -->
+
+<h2>Unterseiten</h2>
+<ul>
+  <r:children:each>
+  <li><r:link /></li>
+  </r:children:each>
+</ul>

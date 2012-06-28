@@ -1,0 +1,5 @@
+Asset rurug mit Name "logo" hinzufügen
+
+in layout#header:
+
+<r:asset:image name="logo" />

@@ -1,0 +1,9 @@
+<!-- in Layout header -->
+<r:content part="navigation" inherit="true" contextual="false" />
+
+<!-- in Homepage part navigation -->
+<ul>
+<r:children:each>
+<li<r:if_self> class="current"</r:if_self>><a href="<r:url />" title="<r:title />"><r:title /></a></li>
+</r:children:each>
+</ul>

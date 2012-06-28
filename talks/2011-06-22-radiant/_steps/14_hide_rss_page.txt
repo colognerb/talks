@@ -1,0 +1,2 @@
+rss page status: Hidden
+in homepage#navigation: ... status="published"
