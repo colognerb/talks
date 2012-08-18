@@ -71,6 +71,7 @@ Webseiten
 
 * tmuxinator
 * vim
+  * http://vimcasts.org/episodes/archive
 * sublime
 * rubymine
 * ...
@@ -79,7 +80,8 @@ Webseiten
 
 * Graylog2
 * splunk
-* syslog-ng
+  * Hosten Splunk https://www.splunkstorm.com/
+* [syslog-ng](http://www.balabit.com/network-security/syslog-ng/opensource-logging-system/overview)
 * http://amon.cx/
 
 ### Monitoring
@@ -93,7 +95,7 @@ Next time?
 
 ### Version control
 
-* gitlab - selfhosted git
+* [gitlab - selfhosted git](http://gitlabhq.com/)
 
 ### Project management etc.
 
