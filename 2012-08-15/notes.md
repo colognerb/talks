@@ -4,30 +4,26 @@
 
 Bisher:  Tobias Eilert, Bodo Tasche, Klaus Zanders, Dennis Hall, Jakob, Lucas
 
-*Wer hat noch Lust vorbeizukommen?*
+* Wer hat noch Lust vorbeizukommen?
+* Wie kann man Ruby am beste präsentieren?
 
-Wie kann man Ruby am beste präsentieren?
+#### Anmerkung1:
 
-Anmerkung1:
+- Am Samstag kann man sich FRAB anguckn - froscon organizing tool built
+  with rails  (zeit & raum offe) (source auf [github](https://github.com/oneiros/frab))
 
-- Am Samstag kann man sich FRAB anguckn - froscon organizing tool built with rails  (zeit & raum offe)
-
-=> source auf github
-
-
-Anmerkung2:
+#### Anmerkung2:
 
 15.9.  Software Freedom Day
 
 *Möchte jemand was über Free Software und Ruby erzählen?*
-
 
 ### Job-Postings and die Cologne.rb Mailingliste?
 
 - Mehrwert?
 - Wie damit umgehen?
 
-Fazit:
+**Fazit:**
 
 So lange es nicht Überhand nimmt und die Posting hinreichend interessant und von der Firma sind die auch suchen,  dann *zulassen*
 
@@ -40,20 +36,15 @@ So lange es nicht Überhand nimmt und die Posting hinreichend interessant und vo
 
 Sponsoren ???
 
-
 ### eurucamp
 
 Wer fähr?  Wann?  Wie?  Warum?
-
-
-
 
 # Lightning Talk von @bascht
 
 "faceblock" demo
 
 Slides?
-
 
 # Ruby Resourcen
 
@@ -65,21 +56,13 @@ Podcasts:
 * ruby5 
 * changelog -> podcast + blog
 
-railscast
+Webseiten
 
-confreaks
-
-afreshcup.com -> blog, edge rails
-
-rubyflow, rubyinside -> meta blog
-
-rubyweekly -> newsletter
-
-
-
-
-
-
+* railscast
+* confreaks
+* afreshcup.com -> blog, edge rails
+* rubyflow, rubyinside -> meta blog
+* rubyweekly -> newsletter
 
 
 # Tools Diskussion
@@ -112,7 +95,6 @@ Next time?
 
 * gitlab - selfhosted git
 
-
 ### Project management etc.
 
 * redmine/chiliproject
@@ -122,11 +104,7 @@ Next time?
 * bugzilla
 * trac
 
-
-don't use:  fog...
-
-
-
+don't use:  fogbugz
 
 # Book review:  "The Rails View"
 
@@ -134,16 +112,13 @@ don't use:  fog...
 
 Notes?
 
-
-
 ### Nächstes Meeting
 
 - Mittwoch 19.9.
 
-wenn's klappt bei underscore
+wenn's klappt bei [anderScore](http://anderscore.com/)
 
 - Wir suchen noch mehr Locations:  Ladet uns ein in eure Firma oder eine andere Location!
-
 
 Talks: 
 
