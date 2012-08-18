@@ -1,56 +1,69 @@
-### Organisatorisches ###
+# Organisatorisches
 
-
-*** Ruby-Stand auf der FrOSCon ***
+### Ruby-Stand auf der FrOSCon 
 
 Bisher:  Tobias Eilert, Bodo Tasche, Klaus Zanders, Dennis Hall, Jakob, Lucas
 
-Wer hat noch Lust vorbeizukommen?
+*Wer hat noch Lust vorbeizukommen?*
 
 Wie kann man Ruby am beste präsentieren?
 
-- Samstag =>  FRAB - froscon organizing tool built with rails  (zeit & raum offe)
+Anmerkung1:
 
-=> github
+- Am Samstag kann man sich FRAB anguckn - froscon organizing tool built with rails  (zeit & raum offe)
+
+=> source auf github
 
 
-15.9.  Software Freedom Day  
+Anmerkung2:
+
+15.9.  Software Freedom Day
+
+*Möchte jemand was über Free Software und Ruby erzählen?*
 
 
-*** Job-Postings and die Cologne.rb Mailingliste? ***
+### Job-Postings and die Cologne.rb Mailingliste?
 
 - Mehrwert?
 - Wie damit umgehen?
 
+Fazit:
 
-*** Rails Girls Cologne ***
+So lange es nicht Überhand nimmt und die Posting hinreichend interessant und von der Firma sind die auch suchen,  dann *zulassen*
+
+
+### Rails Girls Cologne
  
 28th–29th September 2012
+
+[http://railsgirls.com/cologne]
 
 Sponsoren ???
 
 
-*** eurucamp ***
+### eurucamp
 
 Wer fähr?  Wann?  Wie?  Warum?
 
 
 
 
-### Lightning Talk von @bascht
+# Lightning Talk von @bascht
 
-Thema?
+"faceblock" demo
 
-+ "faceblock" demo
+Slides?
 
 
-## Ruby Resourcen
+# Ruby Resourcen
 
-rubykraut podcast
-ploppcast
-ruby rouges
-ruby5 
-changelog -> podcast + blog
+Podcasts: 
+
+* rubykraut podcast
+* ploppcast
+* ruby rouges
+* ruby5 
+* changelog -> podcast + blog
 
 railscast
 
@@ -59,6 +72,7 @@ confreaks
 afreshcup.com -> blog, edge rails
 
 rubyflow, rubyinside -> meta blog
+
 rubyweekly -> newsletter
 
 
@@ -68,75 +82,57 @@ rubyweekly -> newsletter
 
 
 
-### Tools Diskussion
+# Tools Diskussion
 
-* Editoren
+### Editoren
 
-tmuxinator
+* tmuxinator
+* vim
+* sublime
+* rubymine
+* ...
 
+### Logging
 
-* Logging
+* Graylog2
+* splunk
+* syslog-ng
+* http://amon.cx/
 
-Graylog2
-splunk
-syslog-ng
-http://amon.cx/
+### Monitoring
 
-* Monitoring
+* monit - dienstmonitoring mit regeln
+* god ?
 
-monit - dienstmonitoring mit regeln
-god ?
+### Shells, .dotfiles
 
+Next time?
 
+### Version control
 
-
-
-
-* Shells, .dotfiles
-
-* Version control
-
-gitlab - selfhosted git
-
-redmine/chiliproject
-youtrack
-lighthouse
-pivotaltracker
-bugzilla
-trac
+* gitlab - selfhosted git
 
 
-don't use:
-fog...
+### Project management etc.
+
+* redmine/chiliproject
+* youtrack
+* lighthouse
+* pivotaltracker
+* bugzilla
+* trac
 
 
-
-
-
-* Misc (running teRails Girls Cologne
+don't use:  fog...
 
 
 
-### Book review:  "The Rails View"
+
+# Book review:  "The Rails View"
 
 @donschado
 
-
-
-### Master Projekt:  SWOT Analyse tool
-
-@donschado
-
-Twitter Bootstrap App
-
-
-
-### Deployment, Monitoring usw. Diskussion
-
-* Welcher Server?
-* daemontools oder vllt. doch ein init.d
-* Ganglia oder nagios oder doch monit?
-
+Notes?
 
 
 
@@ -144,8 +140,11 @@ Twitter Bootstrap App
 
 - Mittwoch 19.9.
 
-underscore
+wenn's klappt bei underscore
 
-- Location ???
+- Wir suchen noch mehr Locations:  Ladet uns ein in eure Firma oder eine andere Location!
+
+
+Talks: 
 
 - Haml vs. ERB -- Lucas vs. Klaus
