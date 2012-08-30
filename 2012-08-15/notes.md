@@ -42,7 +42,7 @@ Wer fähr?  Wann?  Wie?  Warum?
 
 # Lightning Talk von @bascht
 
-"faceblock" demo
+["faceblock" demo](https://github.com/bascht/faceblock)
 
 Slides?
 
@@ -50,7 +50,7 @@ Slides?
 
 Podcasts: 
 
-* rubykraut podcast
+* [rubykraut.de](http://rubykraut.de/) [@rubykraut](http://twitter.com/rubykraut) podcast
 * ploppcast
 * ruby rouges
 * ruby5 
